@@ -3,11 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>albelo</title>
+	<title>albedo</title>
 	<!-- syle -->
 	<link rel="stylesheet" href="sass/style-2.css">
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Cambay:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Coustard:400,900" rel="stylesheet">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
@@ -15,11 +18,15 @@
 <header class="container-fluid">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-light">
-		 <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="logo albelo"></a>
-		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		 <a class="navbar-brand" href="#">
+		 	<img src="assets/logo.png" class="d-inline-block align-top" alt="logo albelo">
+		 </a>
+
+		 <button class="navbar-toggler btn btn-secondary" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		 </button>
-		 <div class="collapse navbar-collapse" id="navbarText">
+
+		<nav class="collapse navbar-collapse" id="navbarText">
 		    <ul class="navbar-nav ml-auto mr-auto">
 		      <li class="nav-item active">
 		        <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
@@ -40,10 +47,31 @@
 		        <a class="nav-link" href="#">Contacts</a>
 		      </li>
 		    </ul>
-		    <a href="#" class="btn btn-outline-warning">Buy it now</a>
-		  </div>
+		    <a href="#" class="btn btn-outline-warning">
+		    Buy it now
+			</a>
+		</nav>
+
 		</nav>
 	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5">
+				<span class="hero">Hi there!</span>
+				<h1>My Name is <span>Daniel</span></h1>
+				<h2>I'm a Graphic Designer</h2>
+				<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consutedium lectorum parum, anteposeurit etiam processus dynamicus.</p>
+				<a class="btn btn-dark" href="#">About me</a>
+			</div>
+			<div class="col-lg-7"></div>
+		</div>
+	</div>
 </header>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
