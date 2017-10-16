@@ -1,0 +1,40 @@
+body {
+	background-color: grey;
+	font-size: 13px;
+}
+
+nav img{
+	height: 45px;
+}
+
+nav .nav-link {
+	margin-right: 2.5rem;
+}
+
+nav .active>.nav-link {
+    color: #8799A3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+nav .btn {
+    border-radius: 1.25rem;
+    border: 2px solid transparent;
+    padding: .5rem 2.0rem;
+	box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75);
+}
+
+nav a.btn {
+	color: #FFFF00!important;
+	font-size: 13px;
+}
+
+nav .btn-outline-warning {
+    border-color: #FFFF00;
+}
+
+header span {
+	font-family: 'Leckerli One', cursive;
+}
