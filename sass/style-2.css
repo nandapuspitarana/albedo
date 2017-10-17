@@ -17,7 +17,7 @@ nav .nav-link {
   margin-right: 2.5rem;
   color: #FFFFFF !important;
   font-size: 16px;
-  font-weight: 700; }
+  letter-spacing: 0.5px; }
 nav .active > .nav-link, nav .nav-link:hover {
   color: #8799A3 !important; }
 nav .btn.btn-outline-warning {
@@ -47,7 +47,6 @@ header h2 {
   font-weight: 300; }
 header p {
   font-size: 20px;
-  font-weight: 200;
   color: #636363; }
 header .btn.btn-dark {
   font-size: 15px;
