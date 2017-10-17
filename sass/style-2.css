@@ -72,7 +72,8 @@ div#content1 h3 {
 div#content1 p {
   font-size: 19px;
   line-height: 33px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding: 0px; }
 
 div#content2 {
   background-color: #007af3;
@@ -85,5 +86,19 @@ div#content2 img {
 div#content2 h5 {
   padding-bottom: 10px;
   font-weight: 700; }
+
+div#contactus {
+  background-color: #0081FF;
+  padding: 55px 0px;
+  font-family: 'Montserrat', sans-serif; }
+
+div#contactus p {
+  font-size: 20px;
+  padding-top: 10px; }
+div#contactus a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.3rem; }
+div#contactus a.active, div#contactus a:hover {
+  color: #fff; }
 
 /*# sourceMappingURL=style-2.css.map */

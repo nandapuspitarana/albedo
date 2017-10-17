@@ -103,6 +103,7 @@ div#content1 {
         font-size: 19px;
     	line-height: 33px;
 	    margin-top: 20px;
+	    padding: 0px;
 	}
 }
 
@@ -120,5 +121,25 @@ div#content2 {
 	h5 {
 		padding-bottom: 10px;
 		font-weight: 700;
+	}
+}
+
+div#contactus {
+	background-color: #0081FF;
+	padding: 55px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+div#contactus {
+	p {
+		font-size: 20px;
+	    padding-top: 10px;
+	}
+	a {
+	    color: rgba(255, 255, 255, 0.5);
+	    font-size: 1.3rem;
+	}
+	a.active, a:hover {
+		color : #fff;
 	}
 }
