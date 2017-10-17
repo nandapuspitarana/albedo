@@ -2,13 +2,14 @@ body {
   font-family: "Cambay", sans-serif !important;
   color: #FFFFFF !important; }
 
-.container-fluid {
+header.container-fluid {
   background-image: url("../assets/bg-header.jpg");
   background-position: -162px -145px;
   background-size: 2107px 1392px; }
 
 .editbackground {
-  background-color: rgba(37, 37, 37, 0.6); }
+  background-color: rgba(37, 37, 37, 0.6);
+  height: 100%; }
 
 nav img {
   height: 45px; }
@@ -52,5 +53,35 @@ header .btn.btn-dark {
   font-size: 15px;
   border-radius: 5.0rem;
   padding: 10px 28px; }
+
+div#content1 {
+  background-color: #0081FF;
+  padding: 100px 0px;
+  font-family: 'Montserrat', sans-serif; }
+
+div#content1 .hero, div#content1 h3, div#content1 p {
+  display: block;
+  margin: 15px 0px; }
+div#content1 .hero {
+  font-family: 'Leckerli One', cursive;
+  font-size: 28px; }
+div#content1 h3 {
+  font-size: 33px;
+  font-weight: 900; }
+div#content1 p {
+  padding-top: 60px;
+  font-size: 18px; }
+
+div#content2 {
+  background-color: #007af3;
+  padding: 68px 0px;
+  font-family: 'Montserrat', sans-serif; }
+
+div#content2 img {
+  height: 55px;
+  padding: 0px 15px; }
+div#content2 h5 {
+  padding-bottom: 10px;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style-2.css.map */
