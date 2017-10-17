@@ -66,11 +66,13 @@ div#content1 .hero {
   font-family: 'Leckerli One', cursive;
   font-size: 28px; }
 div#content1 h3 {
-  font-size: 33px;
-  font-weight: 900; }
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 52px; }
 div#content1 p {
-  padding-top: 60px;
-  font-size: 18px; }
+  font-size: 19px;
+  line-height: 33px;
+  margin-top: 20px; }
 
 div#content2 {
   background-color: #007af3;
