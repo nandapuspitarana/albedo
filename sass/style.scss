@@ -1,5 +1,9 @@
+$cambay: 'Cambay', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$leckerli:'Leckerli One', cursive;
+
 body {
-	font-family: 'Cambay', sans-serif!important;
+	font-family: $cambay!important;
 	color: #FFFFFF!important;
 }
 
@@ -43,14 +47,14 @@ nav {
 header {
 	.row {
 		padding: 170px 0px;
-		font-family: 'Montserrat', sans-serif;
+		font-family: $montserrat;
 	}
 	.hero, h1, h2, p, a {
 		display: block;
 	    margin: 15px 0px;
 	}
 	.hero {
-		font-family: 'Leckerli One', cursive;
+		font-family: $leckerli;
 		font-size: 28px;
 	}
 	h1 {
@@ -78,7 +82,7 @@ header {
 div#content1 {
 	background-color: #0081FF;
 	padding: 100px 0px;
-	font-family: 'Montserrat', sans-serif; 
+	font-family: $montserrat; 
 }
 
 div#content1 {

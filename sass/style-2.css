@@ -30,12 +30,12 @@ nav .btn.btn-outline-warning {
 
 header .row {
   padding: 170px 0px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 header .hero, header h1, header h2, header p, header a {
   display: block;
   margin: 15px 0px; }
 header .hero {
-  font-family: 'Leckerli One', cursive;
+  font-family: "Leckerli One", cursive;
   font-size: 28px; }
 header h1 {
   font-size: 42px;
@@ -56,7 +56,7 @@ header .btn.btn-dark {
 div#content1 {
   background-color: #0081FF;
   padding: 100px 0px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 div#content1 .hero, div#content1 h3, div#content1 p {
   display: block;
