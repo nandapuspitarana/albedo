@@ -2,7 +2,7 @@ body {
   font-family: "Cambay", sans-serif !important;
   color: #FFFFFF !important; }
 
-header#navbaraja {
+header.container-fluid {
   background-image: url("../assets/bg-header.jpg");
   background-position: -162px -145px;
   background-size: 2107px 1392px; }
