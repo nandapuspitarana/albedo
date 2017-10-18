@@ -7,7 +7,7 @@ body {
 	color: #FFFFFF!important;
 }
 
-header.container-fluid {
+header#navbaraja {
 	background-image: url("../assets/bg-header.jpg");
     background-position: -162px -145px;
     background-size: 2107px 1392px;
@@ -16,6 +16,7 @@ header.container-fluid {
 .editbackground {
     background-color: rgba(37, 37, 37, 0.6);
     height: 100%;
+    width: 100%;
 }
 
 nav {
