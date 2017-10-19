@@ -180,20 +180,28 @@ div#content3 {
 	}
 }
 
+#image1 {
+    max-height: 310px;
+    object-fit: cover;
+}
+
 div#colomone {
 	.col-lg-6>img {
-		height: 257px;
+		height: 310px;
+    	object-fit: cover;
 	}
 }
 
 div#colomtwo {
 	.col-lg-12>img {
-		height: 642px;
+		height: 620px;
+    	object-fit: cover;
 	}
 }
 
 div#colomthree {
 	.col-lg-12>img {
-		height: 321px;
+		height: 310px;
+    	object-fit: cover;
 	}
 }
