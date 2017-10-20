@@ -216,6 +216,8 @@ div#testimonial {
   color: #FFFF00; }
 #testimonial .media p {
   font-size: 13px; }
+#testimonial .media .blockquote-footer::before {
+  content: ""; }
 #testimonial img.img-fluid:hover {
   opacity: 0.8; }
 #testimonial #overlayblock {

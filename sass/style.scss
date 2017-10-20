@@ -308,6 +308,9 @@ div#testimonial {
 		p {
 			font-size: 13px;
 		}
+		.blockquote-footer::before {
+			content:"";
+		}
 	}
 	img.img-fluid:hover {
 		opacity: 0.8;
