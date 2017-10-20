@@ -1,6 +1,7 @@
 $cambay: 'Cambay', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
 $leckerli:'Leckerli One', cursive;
+$coustard: 'Coustard', serif;
 
 body {
 	font-family: $cambay!important;
@@ -9,6 +10,7 @@ body {
 
 header#navbar-hero {
 	background-image: url("../assets/bg-header.jpg");
+	background-repeat: no-repeat;
     background-position: -162px -145px;
     background-size: 2107px 1392px;
 }
@@ -28,7 +30,6 @@ nav {
 		margin-right: 2.5rem;
 		color: #FFFFFF!important;
 		font-size: 16px;
-    	letter-spacing: 0.5px;
 	}
 
 	.active>.nav-link, .nav-link:hover{
@@ -191,8 +192,10 @@ div#content3 {
 
 #image1, #image3, #image4, #image5, #image6, {
     height: 273px;
-    object-fit: cover;
-    overflow: hidden;
+}
+
+.overlayhidden1, #image5 {
+	overflow: hidden;
 }
 
 div#colomone {
@@ -207,10 +210,15 @@ div#colomone {
     	object-fit: cover;
 	}
 	#image3>img {
-		transform: scale(2.9);
+	    transform: scale(2.9);
+    	margin-left: 73px;
+    	margin-top: -42px;
+    	width: 100%;
 	}
 	#image5>img {
 		transform: scale(1.6);
+		width: 100%;
+	    margin-top: 47px;
 	}
 }
 
@@ -231,13 +239,13 @@ div#colomthree {
 }
 
 #overlaycolom {
-	background-color: rgba(37, 37, 37, 0.6);
+	background-color: rgba(55, 64, 71, 0.8);
     padding: 100px 0px;
     opacity: 0;
 }
 
 #overlaycolom2 {
-	background-color: rgba(37, 37, 37, 0.6);
+	background-color: rgba(55, 64, 71, 0.8);
     padding: 237px 0px;
     opacity: 0;	
 }
@@ -262,9 +270,10 @@ div#colomthree {
 }
 
 div#bgtestimonial {
-	background-image: url("../assets/bg-client.jpg");
-    background-size: 114% 227%;
-    background-position: -65px -78px
+    background-image: url("../assets/bg-client.jpg");
+    background-repeat: no-repeat;
+    background-position-x: -1500px;
+    background-position-y: -800px;
 }
 
 div#testimonial {
@@ -289,6 +298,7 @@ div#testimonial {
 		p {
 		font-size: 21px;
 		margin-bottom: 35px;
+		font-family: $coustard;
 		}
 	}
 	.editcontainer {
@@ -320,5 +330,9 @@ div#testimonial {
     	top: -29px;
     	opacity: 0.1;
 	}
-
+	#mediacarousel {
+		img {
+			width: 70%;
+		}
+	}
 }

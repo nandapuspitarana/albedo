@@ -4,6 +4,7 @@ body {
 
 header#navbar-hero {
   background-image: url("../assets/bg-header.jpg");
+  background-repeat: no-repeat;
   background-position: -162px -145px;
   background-size: 2107px 1392px; }
 
@@ -17,8 +18,7 @@ nav img {
 nav .nav-link {
   margin-right: 2.5rem;
   color: #FFFFFF !important;
-  font-size: 16px;
-  letter-spacing: 0.5px; }
+  font-size: 16px; }
 nav .active > .nav-link, nav .nav-link:hover {
   color: #8799A3 !important; }
 nav .btn.btn-outline-warning {
@@ -133,8 +133,9 @@ div#content3 #button1:hover {
   opacity: 0.7; }
 
 #image1, #image3, #image4, #image5, #image6 {
-  height: 273px;
-  object-fit: cover;
+  height: 273px; }
+
+.overlayhidden1, #image5 {
   overflow: hidden; }
 
 div#colomone .col-lg-12 > img {
@@ -146,9 +147,14 @@ div#colomone .col-lg-6 > img {
   height: 310px;
   object-fit: cover; }
 div#colomone #image3 > img {
-  transform: scale(2.9); }
+  transform: scale(2.9);
+  margin-left: 73px;
+  margin-top: -42px;
+  width: 100%; }
 div#colomone #image5 > img {
-  transform: scale(1.6); }
+  transform: scale(1.6);
+  width: 100%;
+  margin-top: 47px; }
 
 div#colomtwo .col-lg-12 > img {
   height: 546px;
@@ -161,12 +167,12 @@ div#colomthree .col-lg-12 > img {
   object-fit: cover; }
 
 #overlaycolom {
-  background-color: rgba(37, 37, 37, 0.6);
+  background-color: rgba(55, 64, 71, 0.8);
   padding: 100px 0px;
   opacity: 0; }
 
 #overlaycolom2 {
-  background-color: rgba(37, 37, 37, 0.6);
+  background-color: rgba(55, 64, 71, 0.8);
   padding: 237px 0px;
   opacity: 0; }
 
@@ -185,8 +191,9 @@ div#colomthree .col-lg-12 > img {
 
 div#bgtestimonial {
   background-image: url("../assets/bg-client.jpg");
-  background-size: 114% 227%;
-  background-position: -65px -78px; }
+  background-repeat: no-repeat;
+  background-position-x: -1500px;
+  background-position-y: -800px; }
 
 div#testimonial {
   padding: 100px 0px;
@@ -203,7 +210,8 @@ div#testimonial {
   font-weight: 900; }
 #testimonial .carousel-item p {
   font-size: 21px;
-  margin-bottom: 35px; }
+  margin-bottom: 35px;
+  font-family: "Coustard", serif; }
 #testimonial .editcontainer {
   margin: 22px 0px;
   padding: 55px 0px; }
@@ -224,5 +232,7 @@ div#testimonial {
   font-size: 34px;
   top: -29px;
   opacity: 0.1; }
+#testimonial #mediacarousel img {
+  width: 70%; }
 
 /*# sourceMappingURL=style-2.css.map */
