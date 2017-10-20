@@ -251,3 +251,47 @@ div.active, #overlaycolom:hover, #overlaycolom2:hover {
 		font-weight: 700;
 	}
 }
+
+div#bgtestimonial {
+	background-image: url("../assets/bg-client.jpg");
+}
+
+div#testimonial {
+	padding: 100px 0px;
+	font-family: $montserrat;
+}
+
+#testimonial {
+	span, h3 {
+		display: block;
+	    margin: 15px 0px;
+	}
+	span {
+		font-family: $leckerli;
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 40px;
+		font-weight: 900;
+	}
+	.carousel-item {
+		p {
+		font-size: 21px;
+		}
+	}
+	.media {
+		img {
+	        height: 65px;
+	    	width: 65px;
+			object-fit: cover;
+		}
+		h5 {
+			font-size: 15px;
+			color: #FFFF00;
+		}
+		p {
+			font-size: 13px;
+		}
+	}
+
+}

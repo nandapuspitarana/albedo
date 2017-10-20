@@ -176,4 +176,32 @@ div.active, #overlaycolom:hover, #overlaycolom2:hover {
   font-size: 20px;
   font-weight: 700; }
 
+div#bgtestimonial {
+  background-image: url("../assets/bg-client.jpg"); }
+
+div#testimonial {
+  padding: 100px 0px;
+  font-family: "Montserrat", sans-serif; }
+
+#testimonial span, #testimonial h3 {
+  display: block;
+  margin: 15px 0px; }
+#testimonial span {
+  font-family: "Leckerli One", cursive;
+  font-size: 30px; }
+#testimonial h3 {
+  font-size: 40px;
+  font-weight: 900; }
+#testimonial .carousel-item p {
+  font-size: 21px; }
+#testimonial .media img {
+  height: 65px;
+  width: 65px;
+  object-fit: cover; }
+#testimonial .media h5 {
+  font-size: 15px;
+  color: #FFFF00; }
+#testimonial .media p {
+  font-size: 13px; }
+
 /*# sourceMappingURL=style-2.css.map */
