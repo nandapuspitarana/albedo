@@ -320,6 +320,7 @@ div#testimonial {
 		}
 		.blockquote-footer::before {
 			content:"";
+			font-family: $montserrat;
 		}
 	}
 	img.img-fluid:hover {

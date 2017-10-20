@@ -225,7 +225,8 @@ div#testimonial {
 #testimonial .media p {
   font-size: 13px; }
 #testimonial .media .blockquote-footer::before {
-  content: ""; }
+  content: "";
+  font-family: "Montserrat", sans-serif; }
 #testimonial img.img-fluid:hover {
   opacity: 0.8; }
 #testimonial #overlayblock {
