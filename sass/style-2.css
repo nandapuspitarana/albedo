@@ -29,6 +29,8 @@ nav .btn.btn-outline-warning {
   font-weight: 700;
   padding: 5px 22px;
   box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75); }
+nav .btn-outline-warning:hover {
+  background-color: #ffde39c7; }
 
 header .row {
   padding: 170px 0px;
@@ -158,14 +160,19 @@ div#colomthree .col-lg-12 > img {
   padding: 100px 0px;
   opacity: 0; }
 
-#overlaycolom:hover {
+#overlaycolom2 {
+  background-color: rgba(37, 37, 37, 0.6);
+  padding: 237px 0px;
+  opacity: 0; }
+
+div.active, #overlaycolom:hover, #overlaycolom2:hover {
   opacity: 1;
   transition: 1.5s ease; }
 
-#overlaycolom h4 {
+#overlaycolom h4, #overlaycolom2 h4 {
   color: #8698a2;
   font-size: 14px; }
-#overlaycolom p {
+#overlaycolom p, #overlaycolom2 p {
   font-size: 20px;
   font-weight: 700; }
 

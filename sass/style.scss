@@ -44,6 +44,10 @@ nav {
 	    padding: 5px 22px;
 	    box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75);
 	}
+
+	.btn-outline-warning:hover {
+		background-color: #ffde39c7;
+	}
 }
 
 header {
@@ -226,12 +230,18 @@ div#colomthree {
     opacity: 0;
 }
 
-#overlaycolom:hover {
+#overlaycolom2 {
+	background-color: rgba(37, 37, 37, 0.6);
+    padding: 237px 0px;
+    opacity: 0;	
+}
+
+div.active, #overlaycolom:hover, #overlaycolom2:hover {
 	opacity: 1;
 	transition: 1.5s ease;
 }
 
-#overlaycolom {
+#overlaycolom, #overlaycolom2 {
 	h4 {
 		color: #8698a2;
 		font-size: 14px;
