@@ -37,8 +37,8 @@ nav {
 
 	.btn.btn-outline-warning {
 		color: #FFFF00;
+	    border: 2px solid #FFFF00;
 		border-radius: 1.25rem;
-		border-color: #FFFF00;
 		font-size: 16px;
 	    font-weight: 700;
 	    padding: 5px 22px;
@@ -46,7 +46,9 @@ nav {
 	}
 
 	.btn-outline-warning:hover {
-		background-color: #ffde39c7;
+		color: #fff;
+	    background-color: #ffc107;
+    	border-color: #ffc107;
 	}
 }
 
@@ -182,10 +184,13 @@ div#content3 {
     padding: 13px 56px;
     box-shadow: 0px 6px 8px -1px rgba(28,187,179,0.31);
 	}
+	#button1:hover {
+		opacity: 0.7;
+	}
 }
 
 #image1, #image3, #image4, #image5, #image6, {
-    max-height: 310px;
+    height: 273px;
     object-fit: cover;
     overflow: hidden;
 }
@@ -194,6 +199,7 @@ div#colomone {
 	.col-lg-12>img {
 		width: 100%;
     	object-fit: cover;
+		height: 312px;
 	}
 	.col-lg-6>img {
 		width: 100%;
@@ -210,7 +216,7 @@ div#colomone {
 
 div#colomtwo {
 	.col-lg-12>img {
-		height: 620px;
+		height: 273px*2;
 		width: 100%;
     	object-fit: cover;
 	}
@@ -236,7 +242,7 @@ div#colomthree {
     opacity: 0;	
 }
 
-div.active, #overlaycolom:hover, #overlaycolom2:hover {
+#overlaycolom.active, #overlaycolom:hover, #overlaycolom2:hover {
 	opacity: 1;
 	transition: 1.5s ease;
 }
@@ -250,10 +256,15 @@ div.active, #overlaycolom:hover, #overlaycolom2:hover {
 		font-size: 20px;
 		font-weight: 700;
 	}
+	img {
+		height: 20px;
+	}
 }
 
 div#bgtestimonial {
 	background-image: url("../assets/bg-client.jpg");
+    background-size: 114% 227%;
+    background-position: -65px -78px
 }
 
 div#testimonial {
@@ -277,7 +288,12 @@ div#testimonial {
 	.carousel-item {
 		p {
 		font-size: 21px;
+		margin-bottom: 35px;
 		}
+	}
+	.editcontainer {
+        margin: 22px 0px;
+    	padding: 55px 0px;
 	}
 	.media {
 		img {
@@ -292,6 +308,14 @@ div#testimonial {
 		p {
 			font-size: 13px;
 		}
+	}
+	img.img-fluid:hover {
+		opacity: 0.8;
+	}
+	#overlayblock {
+        font-size: 34px;
+    	top: -29px;
+    	opacity: 0.1;
 	}
 
 }

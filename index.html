@@ -169,7 +169,7 @@
 			<div class="col-lg-12">
 				<span class="hero">Potfolio...</span></div>
 			<div class="col-lg-6"><h3>I Make Beutiful Things!<h3></div>
-			<div class="col-lg-3"><a class="btn btn-primary" href="#">View all Projects</a></div>
+			<div class="col-lg-3"><a class="btn btn-primary" href="#" id="button1">View all Projects</a></div>
 		</div>
 	</div>
 </div>
@@ -199,9 +199,9 @@
 					    	<a href="#"><img src="assets/heart-icon.png"></p></a>
 						</div>
 					</div>
-					<div class="col-lg-6" class="active" id="image5">
+					<div class="col-lg-6" id="image5">
 						<img src="assets/image-5.jpg" class="img-fluid">
-						<div class="card-img-overlay text-center" id="overlaycolom">
+						<div class="card-img-overlay text-center active" id="overlaycolom">
 					    <h4 class="card-title">User Intrafaces</h4>
 					    <p class="card-text">Socialister - Mobile UI Kit for Photoshop</p>
 					    <p class="card-text">
@@ -267,10 +267,15 @@
 				<span>Clients...</span>
 				<h3>What Customers Say:</h3>
 					<!-- caroulsel begin -->
-					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div id="carouselExampleControls" class="carousel slide editcontainer" data-ride="carousel">
 					  <div class="carousel-inner row justify-content-center">
+					  	<!-- addcaroulse -->
+
 					    <div class="carousel-item col-lg-8 active">
 					      	<blockquote class="blockquote">
+					      		<div class="card-img-overlay text-center" id="overlayblock">
+									<i class="fa fa-quote-left"></i>
+								</div>
 								<p>Insvestigationes demonstraverunt lectores legere me lius quod ii legunt sapius nunc putamus parum claram.</p>
 								<div class="row justify-content-center">
 									<div class="media col-lg-5">
@@ -283,22 +288,8 @@
 								</div>
 							</blockquote>
 					    </div>
-						
-						<div class="carousel-item col-lg-8">
-					      	<blockquote class="blockquote">
-								<p>ii legunt sapius nunc putamus parum claram.</p>
-								<div class="row justify-content-center">
-									<div class="media col-lg-5">
-									  <img class="mr-3 rounded-circle" src="assets/profile.png" alt="Generic placeholder image">
-									  <div class="media-body text-left">
-									    <h5 class="mt-0">Christina Smith</h5>
-									    <p class="blockquote-footer">Marketing Envato Pty Ltd.</p>
-									  </div>
-									</div>
-								</div>
-							</blockquote>
-					    </div>
 
+						<!-- end addcaroulse -->
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -310,7 +301,13 @@
 					  </a>
 					</div>
 					<!-- caroulsel end -->
-				
+				<!-- image client -->
+				<div class="row no-gutters">
+				  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-1.png" class="img-fluid" alt="Responsive image"></a></div>
+				  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-2.png" class="img-fluid" alt="Responsive image"></a></div>
+				  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-3.png" class="img-fluid" alt="Responsive image"></a></div>
+				  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-4.png" class="img-fluid" alt="Responsive image"></a></div>
+				</div>
 			</div>
 		</div>
 	</div>
