@@ -236,4 +236,41 @@ div#testimonial {
 #testimonial #mediacarousel img {
   width: 70%; }
 
+#blog {
+  padding: 60px 0px;
+  font-family: "Montserrat", sans-serif; }
+
+#blog #blog_c1 span {
+  display: block;
+  font-family: 'Leckerli One', cursive;
+  font-size: 35px;
+  color: #8799A3; }
+#blog #blog_c1 h3 {
+  display: block;
+  font-size: 40px;
+  font-weight: 900;
+  color: #000;
+  line-height: 1.2; }
+#blog #blog_c1 p {
+  display: block;
+  color: #868e96;
+  font-size: 21px; }
+#blog #blog_c2 {
+  padding: 20px 41px;
+  background-color: #0081ff;
+  line-height: 1.4;
+  box-shadow: 0px 0px 68px 1px rgba(0, 204, 255, 0.3); }
+  #blog #blog_c2 .date {
+    font-weight: 700; }
+  #blog #blog_c2 p {
+    font-size: 23px;
+    font-family: "Coustard", serif; }
+  #blog #blog_c2 h4 {
+    font-size: 15px;
+    color: #FFFF00; }
+#blog #blog_c3 {
+  overflow: hidden; }
+  #blog #blog_c3 img {
+    height: 481px; }
+
 /*# sourceMappingURL=style-2.css.map */
