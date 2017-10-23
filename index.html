@@ -44,13 +44,13 @@
 			        <a class="nav-link" href="#content3">Portofolio</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#bgtestimonial">Clients</a>
+			        <a class="nav-link" href="#clients">Clients</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Blog</a>
+			        <a class="nav-link" href="#blog">Blog</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Contacts</a>
+			        <a class="nav-link" href="#contacts">Contacts</a>
 			      </li>
 			    </ul>
 			    <a href="#" class="btn btn-outline-warning">
@@ -192,7 +192,7 @@
 						    	<a href="#"><img src="assets/heart-icon.png"></p></a>
 						</div>
 					</div>
-					<div class="row no-gutters overlayhidden1">
+					<div class="row overlayhidden1 container-fluid no-gutters px-0">
 						<div class="col-lg-6" id="image3">
 							<img src="assets/image-3.jpg" class="img-fluid">
 							<div class="card-img-overlay text-center" id="overlaycolom">
@@ -264,7 +264,7 @@
 		</div>
 	</div>
 
-	<div id="bgtestimonial">
+	<div id="clients">
 		<div class="editbackground">
 			<div class="container">
 				<div class="text-center" id="testimonial">	
@@ -342,45 +342,177 @@
 					<div class="col-12 mb-5" id="blog_c1">
 						<span class="mb-4">Blog...</span>
 						<h3 class="">Do Not Miss<br>the Useful Articles</h3>
-						<p class="mt-4">Mirum est notare quam littera gothica, quam nunc parum claram...</p>
+						<p class="">Mirum est notare quam littera gothica, quam nunc parum claram...</p>
 					</div>
-					<div class="col-12 text-center" id="blog_c2">
+					<div class="col-12 text-center pt-4 pb-5" id="blog_c2">
 						<span class="date">6 October</span>
-						<blockquote class="blockquote mt-2">
+						<blockquote class="blockquote mt-4 mb-4">
 						  <p>&quot;Eodem modo typi, qui nunc nobis videntur parum clari, sollemnes parum&quot;</p>
 						</blockquote>
 						<h4>Jonathan Miller</h4>
 					</div>
 			    </div>
 				<!-- right -->
-			    <div class="col-lg-6" id="blog_c3">
+			    <div class="col-lg-6 mt-4" id="blog_c3">
 				    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 						<ol class="carousel-indicators justify-content-start">
-							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active editcar"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1" class="editcar"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2" class="editcar" "></li>
 						</ol>
 						<!-- carouselediting here -->
 						<div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img class="" src="assets/blog-1.png" alt="First slide">
-						      <div class="carousel-caption d-none d-md-block text-left">
-							      <span class="date">9 October</span>
-							      <h3>Gallery Post Format</h3>
+						      <div class="carousel-caption d-block text-left p-6">
+							      <span class="mb-4 d-block">9 October</span>
+							      <h3 class="mb-4 d-block">Gallery Post Format</h3>
 							      <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
-							      <a href="#">Read more</a>
+							      <a class="btn btn-warning text-uppercase" href="#">Read more</a>
+						      </div>
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="" src="assets/bg-header.jpg" alt="First slide">
+						      <div class="carousel-caption d-block text-left p-6">
+							      <span class="mb-4 d-block">9 October</span>
+							      <h3 class="mb-4 d-block">Gallery Post Format</h3>
+							      <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
+							      <a class="btn btn-warning text-uppercase" href="#">Read more</a>
+						      </div>
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="" src="assets/bg-contact.jpg" alt="First slide">
+						      <div class="carousel-caption d-block text-left p-6">
+							      <span class="mb-4 d-block">9 October</span>
+							      <h3 class="mb-4 d-block">Gallery Post Format</h3>
+							      <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
+							      <a class="btn btn-warning text-uppercase" href="#">Read more</a>
 						      </div>
 						    </div>
 						</div>
+						
 
 
 						<!--end carouselediting here -->
 					</div>
 			    </div>
-			  </div>
+		    </div>
+			<!-- scrollspy -->
+
+			<div class="row mt-4 justify-content-between" id="blog0">
+				<div class="col-12 col-lg-3" id="blog1">
+			      <img class="img-fluid" src="assets/blog-2.png" alt="First slide">
+				      <div class="card-img-overlay py-4 ml-3">
+				        <span class="d-block greytextdate mt-2 mb-2">3 September</span>
+				      	<h1 class="d-block blacktextbold mt-3">Standard Post Format</h1>
+				      </div>
+			    </div>
+
+				<div class="col-12 col-lg-3 text-center" id="blog2">
+					<img class="img-fluid" src="assets/blog-3.png" alt="First slide">
+					<div class="card-img-overlay background2">
+				      	<span class="d-block my-0">20 September</span>
+				      	<h1 class="d-block mt-3">Video Post Format</h1>
+				      	<img class="imgplay my-2" src="assets/play-icon.png" alt="icon">
+		    		</div>
+			    </div>
+
+				<div class="col-12 col-lg-4" id="blog3">
+					<div class="background3 py-4 px-4">
+				      	<span class="d-block greytextdate mt-2 mb-2">23 June</span>
+				        <h1 class="d-block blacktextbold  mt-3">Standard Post Format without Preview Img</h1>
+				        <p class="mt-3">Qui nunc nobis videntur parum clari, sollemnes legere.</p>
+		    		</div>
+			      
+			    </div>
+				
+				<div class="col-12 col-lg-2" id="blog4">
+					<div class="background4 d-flex">
+		      			<a href="#" class="d-block text-center text-uppercase my-auto mx-auto">View<br>all post</a>
+			      	</div>
+			    </div>
+			</div>
 		</div>
 	</div>
-	<!-- scrollspy -->
+	
+	<div id="contacts">
+		<div class="editbackground2">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-3" id="contacthero">
+						<h1>Contacts...</h1>
+					</div>
+					
+					<div class="col-lg-6">
+						<h2 class="d-block mt-2 mb-5">Contact Information</h2>
+						
+						<span class="d-block mt-3 mb-1">You can find me here :</span>
+						<p class="d-block">794 South Park Avenue, Melbourne, Australia</p>
+						
+						<p class="d-block my-4"><span>Phone: </span>8 800 567.890.11</p>
+						
+						<p class="d-block mt-3 mb-1"><span>Monday t Friday from</span> 9.00 am to 8.00 pm EST</p>
+						<p class="d-block mb-4"><span>Saturday from</span> 10.00 am to 6.00 pm EST</p>
+						
+						<a href="#">hello@albedo.com</a>
+						<br>
+						<a href="#">support@albedo.com</a>
+						
+						 <ul class="nav mt-5">
+							  <li class="nav-item">
+							    <a class="nav-link pl-0 pr-1" href="#"><i class="fa fa-facebook"></i></a>
+							  </li>
+							  <li class="nav-item active">
+							    <a class="nav-link active pr-1" href="#"><i class="fa fa-twitter"></i></a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link pr-1" href="#"><i class="fa fa-google-plus"></i></a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link pr-1" href="#"><i class="fa fa-linkedin"></i></a>
+							  </li>
+						</ul>				
+					</div>
+					
+					<div class="col-lg-6">
+						<h2 class="d-block mb-5">Get In Touch</h2>
+						<span class="d-block mb-4">You can contact with me using this form.</span>
+						<form>
+						  	<div class="row mb-3">
+							    <div class="col-lg-6 mt-3">
+							      <input type="text" class="form-control stylingform px-4 py-3" placeholder="Your Name">
+							    </div>
+							    <div class="col-lg-6 mt-3">
+							      <input type="email" class="form-control stylingform px-4 py-3" placeholder="Your Email Address">
+							    </div>
+							</div>
+						    <div class="form-group mb-3">
+							    <label for="exampleFormControlTextarea1"></label>
+							    <textarea class="form-control stylingform2 px-4 py-3" id="exampleFormControlTextarea1" rows="4" placeholder="Type in your massage..."></textarea>
+						  	</div>
+						  	<button type="submit" class="btn btn-primary text-uppercase mt-3 stylingbtncontacs">Send</button>
+						</form>
+					</div>
+				</div>
+				<!-- end contact -->
+			</div>
+		</div>
+	<!-- contactsend -->
+		<footer class="editbackground3">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-8">
+						<p class="mb-0">&copy; 2016 <strong>Albedo</strong> &mdash; Universal WordPress Theme. Developed by <span class="p1">Wlab.Pro</span>. Design by <span class="p2">themefire.</span></p>
+					</div>
+					<div class="col-lg-2 text-right">
+						<a href="#navbar-hero">Back to top <i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 </div>
 
 
