@@ -414,6 +414,20 @@ div#testimonial {
 		.p-6 {
 		padding-bottom: 7rem;
 		}
+		
+		@media screen and (max-width: 768px) {
+       		.p-6 { 
+       		left: 5%!important; 
+       		right: 5%!important; 
+       		}
+    	}
+
+    	@media screen and (max-width: 768px) {
+       		ol { 
+       			margin-left: 5%;
+       			margin-right: 5%; 
+       		}
+    	}
 
 		img{
         height: 603px;
@@ -495,8 +509,15 @@ div#testimonial {
 
 	.background4 {
 	background-color: #E91E62;
-    box-shadow: 0px 0px 100px 10px rgba(233,30,98,0.247)
+    box-shadow: 0px 0px 100px 10px rgba(233,30,98,0.247);
 	}
+	 	@media screen and (max-width: 768px) {
+       		.background4 { 
+       			box-shadow: none; 
+       		}
+    	}
+
+
 
 	a {
     color: white;
@@ -591,7 +612,7 @@ div#testimonial {
 	button {
 	-webkit-box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53);
 	-moz-box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53);
-	box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53)*2;
+	box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53);
 	}
 }
 
