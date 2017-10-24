@@ -4,7 +4,6 @@ body {
 
 header#navbar-hero {
   background-image: url("../assets/bg-header.jpg");
-  background-repeat: no-repeat;
   background-position: -100px -130px;
   background-size: 2010px; }
 
@@ -204,7 +203,6 @@ div#colomthree .col-lg-12 > img {
 
 div#clients {
   background-image: url("../assets/bg-client.jpg");
-  background-repeat: no-repeat;
   background-position-x: -1500px;
   background-position-y: -800px; }
 
@@ -362,7 +360,6 @@ div#testimonial {
 
 #contacts {
   background-image: url("../assets/bg-contact.jpg");
-  background-repeat: no-repeat;
   object-fit: cover;
   font-family: "Montserrat", sans-serif; }
 
