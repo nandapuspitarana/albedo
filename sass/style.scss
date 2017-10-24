@@ -61,6 +61,9 @@ header {
 		padding: 170px 0px;
 		font-family: $montserrat;
 	}
+	@media screen and (max-width: 768px) {
+       .row { padding : 60px 0px; }
+    }
 	.hero, h1, h2, p, a {
 		display: block;
 	    margin: 15px 0px;
@@ -592,12 +595,18 @@ div#testimonial {
 	}
 }
 
+@media screen and (max-width: 768px) {
+       .editbackground3 { padding : 0px 0px!important; }
+    }
+
 .editbackground3 {
     background-color: rgba(31, 31, 31, 0.93);
     height: 100%;
     width: 100%;
     padding: 37px 0px;
     font-size: 13px;
+    
+
 	
 	p {
 	color: #464646;

@@ -40,6 +40,9 @@ nav .btn-outline-warning:hover {
 header .row {
   padding: 170px 0px;
   font-family: "Montserrat", sans-serif; }
+@media screen and (max-width: 768px) {
+  header .row {
+    padding: 60px 0px; } }
 header .hero, header h1, header h2, header p, header a {
   display: block;
   margin: 15px 0px; }
@@ -400,6 +403,9 @@ div#testimonial {
     -moz-box-shadow: 0px 0px 33px 2px rgba(0, 98, 204, 0.53);
     box-shadow: 0px 0px 33px 2px rgba(0, 196, 255, 0.53); }
 
+@media screen and (max-width: 768px) {
+  .editbackground3 {
+    padding: 0px 0px !important; } }
 .editbackground3 {
   background-color: rgba(31, 31, 31, 0.93);
   height: 100%;
