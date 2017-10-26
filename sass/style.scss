@@ -6,6 +6,7 @@ $coustard: 'Coustard', serif;
 body {
 	font-family: $cambay!important;
 	color: #FFFFFF!important;
+	position: relative;
 }
 
 header#navbar-hero {
@@ -45,7 +46,8 @@ nav {
 	    font-weight: 700;
 	    padding: 5px 22px;
 	    padding-top: 8px;
-	    box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75);
+	    -webkit-box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75);
+	            box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75);
 	}
 
 	.btn-outline-warning:hover {
@@ -197,7 +199,8 @@ div#content3 {
     font-size: 15px;
     font-weight: 600;
     padding: 13px 56px;
-    box-shadow: 0px 6px 8px -1px rgba(28,187,179,0.31);
+    -webkit-box-shadow: 0px 6px 8px -1px rgba(28,187,179,0.31);
+            box-shadow: 0px 6px 8px -1px rgba(28,187,179,0.31);
 	}
 	#button1:hover {
 		opacity: 0.7;
@@ -215,22 +218,26 @@ div#content3 {
 div#colomone {
 	.col-lg-12>img {
 		width: 100%;
-    	object-fit: cover;
+    	-o-object-fit: cover;
+    	   object-fit: cover;
 		height: 312px;
 	}
 	.col-lg-6>img {
 		width: 100%;
 		height: 310px;
-    	object-fit: cover;
+    	-o-object-fit: cover;
+    	   object-fit: cover;
 	}
 	#image3>img {
-	    transform: scale(2.9);
+	    -webkit-transform: scale(2.9);
+	            transform: scale(2.9);
     	margin-left: 73px;
     	margin-top: -42px;
     	width: 100%;
 	}
 	#image5>img {
-		transform: scale(1.6);
+		-webkit-transform: scale(1.6);
+		        transform: scale(1.6);
 		width: 100%;
 	    margin-top: 47px;
 	}
@@ -240,7 +247,8 @@ div#colomtwo {
 	.col-lg-12>img {
 		height: 273px*2;
 		width: 100%;
-    	object-fit: cover;
+    	-o-object-fit: cover;
+    	   object-fit: cover;
 	}
 }
 
@@ -248,7 +256,8 @@ div#colomthree {
 	.col-lg-12>img {
 		height: 310px;
 		width: 100%;
-    	object-fit: cover;
+    	-o-object-fit: cover;
+    	   object-fit: cover;
 	}
 }
 
@@ -266,6 +275,7 @@ div#colomthree {
 
 #overlaycolom.active, #overlaycolom:hover, #overlaycolom2:hover {
 	opacity: 1;
+	-webkit-transition: 1.5s ease;
 	transition: 1.5s ease;
 }
 
@@ -322,7 +332,8 @@ div#testimonial {
 		img {
 	        height: 65px;
 	    	width: 65px;
-			object-fit: cover;
+			-o-object-fit: cover;
+			   object-fit: cover;
 		}
 		h5 {
 			font-size: 15px;
@@ -354,7 +365,7 @@ div#testimonial {
 #blog {
 	padding: 60px 0px;
 	font-family: $montserrat;
-	// background-color: #e8e8e8;
+	/* background-color: #e8e8e8;*/
 }
 
 #blog {
@@ -388,7 +399,8 @@ div#testimonial {
 	margin-top: 89px;
     background-color: #0081ff;
     line-height: 1.4;
-    box-shadow: 0px 0px 68px 1px rgba(0,204,255,0.3);
+    -webkit-box-shadow: 0px 0px 68px 1px rgba(0,204,255,0.3);
+            box-shadow: 0px 0px 68px 1px rgba(0,204,255,0.3);
 
 
 		.date{
@@ -469,7 +481,8 @@ div#testimonial {
 	#blog1>img, #blog2>img, .background4, .background3 {
 	height: 100%;
 	width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 	}
 
 	img.imgplay {
@@ -502,16 +515,19 @@ div#testimonial {
 
 	.background3 {
 	background-color: #fff;
-	box-shadow: 0px 0px 100px 10px rgba(168, 160, 160, 0.247);
+	-webkit-box-shadow: 0px 0px 100px 10px rgba(168, 160, 160, 0.247);
+	        box-shadow: 0px 0px 100px 10px rgba(168, 160, 160, 0.247);
 	}
 
 	.background4 {
 	background-color: #E91E62;
-    box-shadow: 0px 0px 100px 10px rgba(233,30,98,0.247);
+    -webkit-box-shadow: 0px 0px 100px 10px rgba(233,30,98,0.247);
+            box-shadow: 0px 0px 100px 10px rgba(233,30,98,0.247);
 	}
 	 	@media screen and (max-width: 768px) {
        		.background4 { 
-       			box-shadow: none; 
+       			-webkit-box-shadow: none; 
+       			        box-shadow: none; 
        		}
     	}
 
@@ -538,7 +554,8 @@ div#testimonial {
 
 #contacts {
 	background-image: url("../assets/bg-contact.jpg");
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     font-family: $montserrat;
 }
 
@@ -608,7 +625,6 @@ div#testimonial {
 
 	button {
 	-webkit-box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53);
-	-moz-box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53);
 	box-shadow: 0px 0px 33px 2px rgba(0,98,204,0.53);
 	}
 }

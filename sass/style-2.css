@@ -1,6 +1,7 @@
 body {
   font-family: "Cambay", sans-serif !important;
-  color: #FFFFFF !important; }
+  color: #FFFFFF !important;
+  position: relative; }
 
 header#navbar-hero {
   background-image: url("../assets/bg-header.jpg");
@@ -30,6 +31,7 @@ nav .btn.btn-outline-warning {
   font-weight: 700;
   padding: 5px 22px;
   padding-top: 8px;
+  -webkit-box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75);
   box-shadow: 1px 1px 10px -1px rgba(225, 255, 0, 0.75); }
 nav .btn-outline-warning:hover {
   color: #fff;
@@ -140,6 +142,7 @@ div#content3 .btn.btn-primary {
   font-size: 15px;
   font-weight: 600;
   padding: 13px 56px;
+  -webkit-box-shadow: 0px 6px 8px -1px rgba(28, 187, 179, 0.31);
   box-shadow: 0px 6px 8px -1px rgba(28, 187, 179, 0.31); }
 div#content3 #button1:hover {
   opacity: 0.7; }
@@ -152,18 +155,22 @@ div#content3 #button1:hover {
 
 div#colomone .col-lg-12 > img {
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   height: 312px; }
 div#colomone .col-lg-6 > img {
   width: 100%;
   height: 310px;
+  -o-object-fit: cover;
   object-fit: cover; }
 div#colomone #image3 > img {
+  -webkit-transform: scale(2.9);
   transform: scale(2.9);
   margin-left: 73px;
   margin-top: -42px;
   width: 100%; }
 div#colomone #image5 > img {
+  -webkit-transform: scale(1.6);
   transform: scale(1.6);
   width: 100%;
   margin-top: 47px; }
@@ -171,11 +178,13 @@ div#colomone #image5 > img {
 div#colomtwo .col-lg-12 > img {
   height: 546px;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover; }
 
 div#colomthree .col-lg-12 > img {
   height: 310px;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover; }
 
 #overlaycolom {
@@ -190,6 +199,7 @@ div#colomthree .col-lg-12 > img {
 
 #overlaycolom.active, #overlaycolom:hover, #overlaycolom2:hover {
   opacity: 1;
+  -webkit-transition: 1.5s ease;
   transition: 1.5s ease; }
 
 #overlaycolom h4, #overlaycolom2 h4 {
@@ -229,6 +239,7 @@ div#testimonial {
 #testimonial .media img {
   height: 65px;
   width: 65px;
+  -o-object-fit: cover;
   object-fit: cover; }
 #testimonial .media h5 {
   font-size: 15px;
@@ -249,7 +260,8 @@ div#testimonial {
 
 #blog {
   padding: 60px 0px;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #e8e8e8;*/ }
 
 #blog #blog_c1 span {
   display: block;
@@ -272,6 +284,7 @@ div#testimonial {
   margin-top: 89px;
   background-color: #0081ff;
   line-height: 1.4;
+  -webkit-box-shadow: 0px 0px 68px 1px rgba(0, 204, 255, 0.3);
   box-shadow: 0px 0px 68px 1px rgba(0, 204, 255, 0.3); }
   #blog #blog_c2 .date {
     font-weight: 700; }
@@ -321,6 +334,7 @@ div#testimonial {
 #blog #blog1 > img, #blog #blog2 > img, #blog .background4, #blog .background3 {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover; }
 #blog img.imgplay {
   height: 35px;
@@ -340,12 +354,15 @@ div#testimonial {
   background-color: rgba(23, 28, 33, 0.53); }
 #blog .background3 {
   background-color: #fff;
+  -webkit-box-shadow: 0px 0px 100px 10px rgba(168, 160, 160, 0.247);
   box-shadow: 0px 0px 100px 10px rgba(168, 160, 160, 0.247); }
 #blog .background4 {
   background-color: #E91E62;
+  -webkit-box-shadow: 0px 0px 100px 10px rgba(233, 30, 98, 0.247);
   box-shadow: 0px 0px 100px 10px rgba(233, 30, 98, 0.247); }
 @media screen and (max-width: 768px) {
   #blog .background4 {
+    -webkit-box-shadow: none;
     box-shadow: none; } }
 #blog a {
   color: white;
@@ -360,6 +377,7 @@ div#testimonial {
 
 #contacts {
   background-image: url("../assets/bg-contact.jpg");
+  -o-object-fit: cover;
   object-fit: cover;
   font-family: "Montserrat", sans-serif; }
 
@@ -408,7 +426,6 @@ div#testimonial {
     border-radius: 2.3rem; }
   .editbackground2 button {
     -webkit-box-shadow: 0px 0px 33px 2px rgba(0, 98, 204, 0.53);
-    -moz-box-shadow: 0px 0px 33px 2px rgba(0, 98, 204, 0.53);
     box-shadow: 0px 0px 33px 2px rgba(0, 98, 204, 0.53); }
 
 @media screen and (max-width: 768px) {
