@@ -16,10 +16,10 @@ header#navbar-hero {
 nav img {
   height: 45px; }
 nav .nav-link {
-  margin-right: 1.8rem;
+  margin: 0rem 0.8rem;
   color: #FFFFFF !important;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif; }
 nav .active > .nav-link, nav .nav-link:hover {
   color: #8799A3 !important; }
