@@ -14,6 +14,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Coustard:400,900" rel="stylesheet">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- swiper -->
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<!-- icon -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- solve eror github -->
@@ -326,11 +328,30 @@
 						</div>
 						<!-- caroulsel end -->
 					<!-- image client -->
-					<div class="row align-items-center no-gutters" id="mediacarousel">
-					  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-1.png" class="img-fluid" alt="Responsive image"></a></div>
-					  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-2.png" class="img-fluid" alt="Responsive image"></a></div>
-					  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-3.png" class="img-fluid" alt="Responsive image"></a></div>
-					  <div class="col-12 col-lg-3"><a href="#"><img src="assets/client-4.png" class="img-fluid" alt="Responsive image"></a></div>
+					<div class="row swiper-container" id="mediacarousel">
+						<div class="swiper-wrapper align-items-center">
+						  <div class="swiper-slide">
+						  	<a href="#">
+						  		<img src="assets/client-1.png" class="img-fluid" alt="Responsive image">
+						  	</a>
+						  </div>
+						  <div class="swiper-slide">
+						  	<a href="#">
+						  		<img src="assets/client-2.png" class="img-fluid" alt="Responsive image">
+						  	</a>
+						  </div>
+						  <div class="swiper-slide">
+						  	<a href="#">
+						  		<img src="assets/client-3.png" class="img-fluid" alt="Responsive image">
+						  	</a>
+						  </div>
+						  <div class="swiper-slide">
+						  	<a href="#">
+						  		<img src="assets/client-4.png" class="img-fluid" alt="Responsive image">
+						  	</a>
+						  </div>
+						</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -342,7 +363,7 @@
 			<div class="row justify-content-between">
 			    <!-- left -->
 			    <div class="col-lg-6 px-0 px-sm-3 no-gutters">
-					<div class="col-12 mb-5" id="blog_c1">
+					<div class="col-12 mb-5 px-2" id="blog_c1">
 						<span class="mb-4">Blog...</span>
 						<h3 class="">Do Not Miss<br>the Useful Articles</h3>
 						<p class="">Mirum est notare quam littera gothica, quam nunc parum claram...</p>
@@ -555,6 +576,7 @@ $(document).ready(function(){
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/swiper.min.js"></script>
+<script src="js/slideresponsive.js"></script>
 </body>
 </html>
